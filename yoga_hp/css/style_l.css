@@ -1,0 +1,219 @@
+*{
+	margin: 0; 
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+font-family: Lato, "Noto Sans JP", "游ゴシック Medium", "游ゴシック体", "Yu Gothic Medium", YuGothic, "ヒラギノ角ゴ ProN", "Hiragino Kaku Gothic ProN", "メイリオ", Meiryo, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
+}
+
+header{
+	width: 100%;
+    background-color: white;
+    z-index: 10000;
+}
+
+.top-menu{
+	width: 960px;
+	margin: 0 auto;
+}
+
+.clearfix::after{
+	content: "";
+	display: block;
+	clear: both;
+}
+
+.logo{
+	float: left;
+	height: 100px;
+}
+
+nav{
+    float: right;
+}
+
+li{
+	float: left;
+	list-style: none;
+	line-height: 100px;
+	padding-left: 40px;
+	font-size: 14px;
+}
+
+li a{
+	text-decoration: none;
+}
+
+.head-text{
+	margin-top: 60PX;
+	margin-bottom: 40px;
+	text-align: center;
+	font-size: 25px;
+	font-weight: normal;
+}
+
+.head-text::after {
+  width: 100px;
+  height: 8px;
+  margin: 0 auto;
+  display: block;
+  border-bottom: 1px solid;
+  content: '';
+}
+
+.box{
+	width: 960px;
+	margin: 0 auto;
+	margin-bottom: 50px;
+	position: relative;
+}
+
+.lesson-box{
+    width: 960px;
+    height: 450px;
+    float: left;
+	margin-bottom: 100px;
+}
+
+.lesson-img1-1,
+.lesson-img1-2,
+.lesson-img1-3,
+.lesson-img2-1,
+.lesson-img2-2,
+.lesson-img2-3,
+.lesson-img3-1,
+.lesson-img3-2,
+.lesson-img3-3{
+  color: #fff;
+  padding: 5%;
+  width: 180px;
+  height: 180px;
+  margin: 0 -15px;
+  mix-blend-mode: multiply;
+}
+
+.lesson-img1-1{
+	height: 300px;
+	width: 300px;
+	background-image: url(../img/profile/Cocorostudiosessions-660.jpg);
+	background-size: cover;
+	background-position: center;
+	float: left;
+	margin: 0 0 30px 45px;
+	border-radius: 50% 50% 50% 70%/50% 50% 70% 60%;
+
+}
+.lesson-img1-2{
+	height: 300px;
+	width: 300px;
+	background-image: url(../img/profile/Cocorostudiosessions-719-Edit.jpg);
+	background-size: cover;
+	background-position: center;
+	float: left;
+	margin-bottom: 30px;
+	border-radius: 40% 40% 50% 40%/30% 50% 50% 50%;
+}
+
+.lesson-img1-3{
+	height: 300px;
+	width: 300px;
+	background-image: url(../img/profile/Cocorostudiosessions-611.jpg);
+	background-size: cover;
+	background-position: center;
+	float: left;
+	margin: 0 45px 30px 0;
+	border-radius: 80% 30% 50% 50%/50%;
+}
+
+.lesson-img2-1{
+	height: 300px;
+	width: 300px;
+	background-image: url(../img/lesson/親子ヨガ7.jpg);
+	background-size: cover;
+	background-position: center;
+	float: left;
+	margin: 0 0 30px 45px;
+	border-radius: 50% 50% 50% 70%/50% 50% 70% 60%;
+
+}
+.lesson-img2-2{
+	height: 300px;
+	width: 300px;
+	background-image: url(../img/lesson/親子ヨガ4.JPG);
+	background-size: cover;
+	background-position: center;
+	float: left;
+	margin-bottom: 30px;
+	border-radius: 40% 40% 50% 40%/30% 50% 50% 50%;
+}
+
+.lesson-img2-3{
+	height: 300px;
+	width: 300px;
+	background-image: url(../img/lesson/親子ヨガ8.JPG);
+	background-size: cover;
+	background-position: center;
+	float: left;
+	margin: 0 45px 30px 0;
+	border-radius: 80% 30% 50% 50%/50%;
+}
+
+.lesson-img3-1{
+	height: 300px;
+	width: 300px;
+	background-image: url(../img/photo/IMG_1140.jpg);
+	background-size: cover;
+	background-position: center;
+	float: left;
+	margin: 0 0 30px 45px;
+	border-radius: 50% 50% 50% 70%/50% 50% 70% 60%;
+
+}
+.lesson-img3-2{
+	height: 300px;
+	width: 300px;
+	background-image: url(../img/photo/IMG_9222.JPG);
+	background-size: cover;
+	background-position: center;
+	float: left;
+	margin-bottom: 30px;
+	border-radius: 40% 40% 50% 40%/30% 50% 50% 50%;
+}
+
+.lesson-img3-3{
+	height: 300px;
+	width: 300px;
+	background-image: url(../img/photo/PA084231.JPG);
+	background-size: cover;
+	background-position: center;
+	float: left;
+	margin: 0 45px 30px 0;
+	border-radius: 80% 30% 50% 50%/50%;
+}
+.lesson-text{
+    width: 960px;
+    height: 200px;
+	margin: 0px 45px 50px 45px;
+	clear: left;
+}
+
+.lesson-box h3{
+    word-wrap: break-word;
+    margin-top: 30PX;
+	margin-bottom: 10px;
+	font-size: 20px;
+	font-weight: normal;
+}
+
+.footer{
+	width: 100%;
+	background-color: black;
+	display: inline-block;
+	text-align: center;
+}
+
+.footer p{
+	color: #ffffff
+}

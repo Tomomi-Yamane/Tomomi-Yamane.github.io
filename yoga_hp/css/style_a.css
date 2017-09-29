@@ -1,0 +1,115 @@
+*{
+	margin: 0; 
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+font-family: Lato, "Noto Sans JP", "游ゴシック Medium", "游ゴシック体", "Yu Gothic Medium", YuGothic, "ヒラギノ角ゴ ProN", "Hiragino Kaku Gothic ProN", "メイリオ", Meiryo, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
+}
+
+header{
+	width: 100%;
+    z-index: 10000;
+}
+
+.top-menu{
+	width: 960px;
+	margin: 0 auto;
+}
+
+.clearfix::after{
+	content: "";
+	display: block;
+	clear: both;
+}
+
+.logo{
+	float: left;
+	height: 100px;
+}
+
+nav{
+    float: right;
+}
+
+li{
+	float: left;
+	list-style: none;
+	line-height: 100px;
+	padding-left: 40px;
+	font-size: 14px;
+}
+
+li a{
+	text-decoration: none;
+}
+
+.head-text{
+	margin-top: 90PX;
+	margin-bottom: 60px;
+	text-align: center;
+	font-size: 25px;
+	font-weight: normal;
+}
+
+.head-text::after {
+  width: 100px;
+  height: 8px;
+  margin: 0 auto;
+  display: block;
+  border-bottom: 1px solid;
+  content: '';
+}
+
+.box{
+	width: 960px;
+	margin: 0 auto;
+	margin-bottom: 50px;
+	position: relative;
+}
+
+.tokyo-box{
+	width: 300px;
+	height: 300px;
+	float: left;
+	text-align: center;
+	margin-right: 30px;
+}
+
+.yokohama-box{
+	width: 300px;
+	height: 300px;
+	float: left;
+    text-align: center;
+    margin-right: 30px;
+}
+
+.gotenba-box{
+	width: 300px;
+	height: 300px;
+	float: left;
+	text-align: center;
+}
+
+.area-sub{
+	padding-top: 30PX;
+	padding-bottom: 10px;
+	text-align: center;
+	font-size: 20px;
+}
+
+.area-text{
+	text-align: center;
+}
+
+.footer{
+	width: 100%;
+	background-color: black;
+	display: inline-block;
+	text-align: center;
+}
+
+.footer p{
+	color: #ffffff
+}
